@@ -1,0 +1,48 @@
+{
+    "type": "botanypots:crop",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pixelmon"
+        }
+    ],
+    "seed": {
+        "item": "pixelmon:black_apricorn"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "pixelmon:apricorn_leaves_black",
+        "properties": {
+            "age": "2"
+        }
+    },
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "pixelmon:black_apricorn"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.25,
+            "output": {
+                "item": "pixelmon:black_apricorn"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        },
+        {
+            "chance": 0.25,
+            "output": {
+                "item": "pixelmon:black_apricorn"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}
